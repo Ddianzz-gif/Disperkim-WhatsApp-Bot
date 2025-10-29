@@ -1,0 +1,33 @@
+{
+  "name": "whatsapp-disperkim-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Chatbot DISPERKIM Kota Semarang",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.20",
+    "baileys": "^7.0.0-rc.6",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "googleapis": "^160.0.0",
+    "node-fetch": "^3.3.2",
+    "pino": "^10.1.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<username>/disperkim-whatsapp-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<username>/disperkim-whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/<username>/disperkim-whatsapp-bot#readme"
+}
